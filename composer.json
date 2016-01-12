@@ -1,0 +1,30 @@
+{
+    "name": "great-all/yii2-queue",
+    "description": "The queue extension for the Yii framework",
+    "keywords": [
+        "yii2",
+        "queue"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "chao zhang",
+            "email": "zhangchao_1125@sina.cn"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "require-dev": {
+        "aws/aws-sdk-php": "~3.0",
+        "predis/predis": "~1.0",
+        "phpunit/phpunit": "~4.0",
+        "phpunit/dbunit": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "greate\\queue\\": ""
+        }
+    }
+}
